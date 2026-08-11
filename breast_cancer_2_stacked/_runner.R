@@ -1,0 +1,6 @@
+setwd('F:/independent projects/cancer/breast cancer/breast cancer 2/BreastCancer_Stacked_Ensemble')
+source('config/analysis_config.R')
+source('R/package_functions.R')
+load_required_packages()
+cat('Packages loaded, running 01_download_GEO.R\n')
+source('scripts/01_download_GEO.R')

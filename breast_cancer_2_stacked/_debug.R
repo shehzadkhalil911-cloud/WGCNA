@@ -1,0 +1,6 @@
+setwd('F:/independent projects/cancer/breast cancer/breast cancer 2/BreastCancer_Stacked_Ensemble')
+source('config/analysis_config.R')
+cat('Config sourced\n')
+source('R/package_functions.R')
+cat('Package functions sourced\n')
+cat('exists:', exists('load_required_packages'), '\n')
